@@ -1,6 +1,6 @@
 name: Passing Parameter to action
 
-on: [push]
+#on: [push]
 
 jobs:
   build:
