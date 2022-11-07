@@ -23,9 +23,9 @@ jobs:
         run: | 
           echo "$ENV_AT_WORKSPACE"
           echo "-----------------
-          echo "ENV_AT_JOB"
+          echo "$ENV_AT_JOB"
           echo "-----------------          
-          echo "ENV_AT_STEP"                    
+          echo "$ENV_AT_STEP"                    
           echo "-----------------
-          echo "OVERRIDE_ENV"                    
+          echo "$OVERRIDE_ENV"                    
           echo "-----------------
