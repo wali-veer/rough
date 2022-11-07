@@ -4,7 +4,7 @@ env:
   ENV_AT_WORKSPACE: "workspace env variable"
   OVERRIDE_ENV: "workspace Oenv variable"
  
-on: push
+#on: push
 
 jobs:
   env_test:
