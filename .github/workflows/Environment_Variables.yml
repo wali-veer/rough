@@ -13,7 +13,7 @@ jobs:
       ENV_AT_JOB: "job env variable"
       OVERRIDE_ENV: "job Oenv variable"
       
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
       - name: step print env
