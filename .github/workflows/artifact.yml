@@ -3,7 +3,7 @@ name: artifact
 on: [push]
 
 env: 
-  ARTIFACT_NAME= "MERA_WALA_ARTIFACT"
+  ARTIFACT_NAME: "MERA_WALA_ARTIFACT"
   
 jobs:
   main:
